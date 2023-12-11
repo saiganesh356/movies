@@ -1,0 +1,32 @@
+GET http://localhost:3000/movies/
+
+###
+POST http://localhost:3000/movies/
+Content-Type:application/json 
+
+{
+    "directorId":10,
+    "movieName":"hiijwiow",
+    "leadActor":"allu"
+}
+
+###
+GET http://localhost:3000/movies/47/
+
+###
+PUT http://localhost:3000/movies/118/
+Content-Type:application/json 
+
+{
+    "directorId":565,
+    "movieName":"how",
+    "leadActor":"alu"
+}
+###
+DELETE http://localhost:3000/movies/118/
+
+
+###
+GET http://localhost:3000/directors/
+###
+GET http://localhost:3000/directors/42/movies/
